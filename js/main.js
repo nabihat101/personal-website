@@ -5,7 +5,7 @@ const allSections = document.querySelector('.main_content');
 
 function whenButtonClicked() {
     let currentBtn = document.querySelectorAll('.active-btn');
-    currentBtn[0].classList = currentBtn[0].className.replace('active-btn', '');
+    currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
     this.className += ' active-btn';
 }
 
