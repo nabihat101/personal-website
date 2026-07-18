@@ -63,13 +63,11 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: yellow
 }
 
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: tomato;
 }
 
 .sec3{
@@ -95,6 +93,7 @@ section{
         transform: translateY(0) scaleY(1);
     }
 }
+
 
 .controls {
     position: fixed;
@@ -135,4 +134,25 @@ section{
         color: var(--grey0-color);
         pointer-events: none;
     }
+}
+
+.header-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    align-items: center;
+    .left-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+}
+
+img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    align-self: center;
 }
