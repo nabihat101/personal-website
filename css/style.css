@@ -66,6 +66,21 @@ section{
 
 }
 
+.sec2{
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
+.sec3{
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
+.sec4{
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
 .controls {
     position: fixed;
     z-index: 10;
